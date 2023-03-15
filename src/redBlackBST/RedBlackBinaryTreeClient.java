@@ -52,7 +52,7 @@ public class RedBlackBinaryTreeClient {
             testList.iteratorReverse();
             System.out.println();
             System.out.println("Heap size " + testList.size());
-            System.out.println("Root item: " + testList.root());
+            System.out.println("Root item: " + testList.root().item);
             System.out.println("Minimum value " + testList.min().item.itemName);
             System.out.println("Maximum value " + testList.max().item.itemName);
             System.out.print("If you wish to delete max value type x : -  " );
